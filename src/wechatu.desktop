@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=0.1.0
+Type=Application
+Name=WeChat for Linux
+Icon={0}icons/wechat.png
+Exec={1}wechatu
+Terminal=false
+Categories=Network;InstantMessaging
