@@ -13,6 +13,14 @@ WeChat for Linux
 * 扩展功能
     * 支持锁屏
 
+##安装wechatu
+
+```shell
+wget https://github.com/tjz101/wechatu/bin/wechatu-v0.1.0-linux-x64.tar.gz  
+tar -xvf wechatu-v0.1.0-linux-x64.tar.gz  
+cd wechatu  
+sudo ./setup.py  
+```
 
 ##登录
 ![login](http://ww2.sinaimg.cn/mw690/c5e04220gw1f961gv8cqkj20rs0kp41q.jpg)
