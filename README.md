@@ -11,7 +11,7 @@ WeChat for Linux
     *  手机扫码登录
     *  好友、群组等
 * 扩展功能
-    * 支持锁屏
+    * 支持锁屏（Shift+Ctrl+L）
 
 ##安装wechatu
 
