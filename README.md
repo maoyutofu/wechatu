@@ -16,8 +16,8 @@ WeChat for Linux
 ##安装wechatu
 
 ```shell
-wget https://github.com/tjz101/wechatu/bin/wechatu-v0.1.0-linux-x64.tar.gz  
-tar -xvf wechatu-v0.1.0-linux-x64.tar.gz  
+wget https://github.com/tjz101/wechatu/releases/download/v0.1.0/wechatu-v0.1.0-linux-x64.tar.gz
+tar -xvf wechatu-v0.1.0-linux-x64.tar.gz
 cd wechatu  
 sudo ./setup.py  
 ```
