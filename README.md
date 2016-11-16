@@ -48,6 +48,6 @@ sudo ./setup.py
 ```javascript
   var author = {
     nickName  : "lemontea",
-    site : "http://"
+    site : "http://www.cnblogs.com/tangjizhong/"
   }
 ```
