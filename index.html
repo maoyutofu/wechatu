@@ -81,7 +81,7 @@
     const path = require('path')
 
     // tray
-    let trayIcon = new Tray(path.join('','icons/32x32/wechat.png'))
+    let trayIcon = new Tray(path.join(__dirname, 'icons/32x32/wechat.png'))
     let win = remote.getCurrentWindow()
     const trayMenuTemplate = [
         {

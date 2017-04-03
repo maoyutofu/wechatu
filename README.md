@@ -12,6 +12,7 @@
 * 扩展功能
     * 支持锁屏（Shift+Ctrl+L）
     * 误触关闭按钮确认提示
+    * 系统托盘
 * 其他功能说明
     * 聊天窗口的复制/粘贴需要使用快捷键来实现(Ctrl+c/Ctrl+v)
 
@@ -31,6 +32,9 @@ sudo ./setup.py
 ![chat](http://ww2.sinaimg.cn/mw690/c5e04220jw9f961kg8ik3j20r70k20wi.jpg)
 ## 离开时锁屏（Shift+Control+l）
 ![lock](http://ww4.sinaimg.cn/mw690/c5e04220gw1f961gql5kfj20rm0jzq4r.jpg)
+## 隐藏主面板/最小化到系统托盘
+![lock](http://wx3.sinaimg.cn/large/c5e04220ly1fe9j464xvmj208j04edfv.jpg)
+![lock](http://wx3.sinaimg.cn/large/c5e04220gy1fe9jaikfq6j209y00rmx1.jpg)
 
 ## 有问题反馈
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
