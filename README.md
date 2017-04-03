@@ -29,7 +29,7 @@ sudo ./setup.py
 ![login](http://ww2.sinaimg.cn/mw690/c5e04220gw1f961gv8cqkj20rs0kp41q.jpg)
 ## 聊天与阅读
 ![chat](http://ww2.sinaimg.cn/mw690/c5e04220jw9f961kg8ik3j20r70k20wi.jpg)
-## 离开时锁屏（Shift+Control+L）
+## 离开时锁屏（Shift+Control+l）
 ![lock](http://ww4.sinaimg.cn/mw690/c5e04220gw1f961gql5kfj20rm0jzq4r.jpg)
 
 ## 有问题反馈
