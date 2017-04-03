@@ -1,8 +1,9 @@
 # wechatu WeChat for Linux  
 
-![wechatu](http://ww4.sinaimg.cn/mw690/c5e04220gw1f961gwyrwfj211y0lc7as.jpg)  
+![NewFeatures](http://wx4.sinaimg.cn/large/c5e04220gy1fe9jptlpjtj20fp04bglv.jpg)  
 ## wechatu是什么?
 一个运行在Ubuntu系统下的微信<注意：wechatu非微信官方产品>
+![wechatu](http://ww4.sinaimg.cn/mw690/c5e04220gw1f961gwyrwfj211y0lc7as.jpg) 
 
 ## wechatu有哪些功能？
 
@@ -19,8 +20,8 @@
 ## 安装wechatu
 
 ```shell
-wget https://github.com/tjz101/wechatu/releases/download/v0.1.1/wechatu-v0.1.1-linux-x64.tar.gz  
-tar -xvf wechatu-v0.1.1-linux-x64.tar.gz  
+wget https://github.com/tjz101/wechatu/releases/download/v0.1.2/wechatu-v0.1.2-linux-x64.tar.gz  
+tar -xvf wechatu-v0.1.2-linux-x64.tar.gz  
 cd wechatu-linux-x64  
 chmod a+x setup.py  
 sudo ./setup.py  
@@ -33,7 +34,7 @@ sudo ./setup.py
 ## 离开时锁屏（Shift+Control+l）
 ![lock](http://ww4.sinaimg.cn/mw690/c5e04220gw1f961gql5kfj20rm0jzq4r.jpg)
 ## 隐藏主面板/最小化到系统托盘
-![lock](http://wx3.sinaimg.cn/large/c5e04220ly1fe9j464xvmj208j04edfv.jpg)
+![lock](http://wx3.sinaimg.cn/large/c5e04220ly1fe9j464xvmj208j04edfv.jpg)  
 ![lock](http://wx3.sinaimg.cn/large/c5e04220gy1fe9jaikfq6j209y00rmx1.jpg)
 
 ## 有问题反馈

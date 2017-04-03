@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VER="0.1.1"
+VER="0.1.2"
 
 cp wechatu.desktop ./Release/wechatu-linux-x64/wechatu.desktop
 cp setup.py ./Release/wechatu-linux-x64/setup.py
