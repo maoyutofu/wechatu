@@ -77,23 +77,38 @@
 
 <script>
     const {app, remote} = require('electron')
-    const {globalShortcut, Menu, MenuItem} = remote
+    const {globalShortcut, Menu, Tray} = remote
+    const path = require('path')
 
+    // tray
+    let trayIcon = new Tray(path.join('','icons/wechat.png'))
+    let win = remote.getCurrentWindow()
+    const trayMenuTemplate = [
+        {
+           label: '打开主面板',
+           click: function () {
+              win.show()
+              if (win.isMinimized()) {
+                 win.restore()
+               }
+           }
+        },
+        {
+           label: '退出',
+           click: function () {
+              win.destroy()
+              win = null
+           }
+        }
+    ]
+    let trayMenu = Menu.buildFromTemplate(trayMenuTemplate)
+    trayIcon.setContextMenu(trayMenu)
+
+    // load wechat
     var webview = document.getElementById('webview')
     webview.addEventListener('dom-ready', function () {
         // win.setTitle(webview.getTitle())
     })
-
-    // context menu
-    /*const menu = new Menu()
-    menu.append(new MenuItem({label: '复制', role: 'copy', accelerator: 'CmdOrCtrl+C'}))
-    menu.append(new MenuItem({type: 'separator'}))
-    menu.append(new MenuItem({label: '粘贴', role: 'paste', accelerator: 'CmdOrCtrl+V'}))
-
-    webview.addEventListener('contextmenu', (e) => {
-        e.preventDefault()
-        menu.popup()
-    })*/
 
     var passwd = ""
     // register the lock screen shortcut key
@@ -107,9 +122,11 @@
         }
         $('#row_unlock').show()
     })
+
     if (!ret) {
         console.log('Shift+Control+X registration failed')
     }
+
     $('#lock').on('click', function(){
         var val = $('#password').val()
         if (!val) {
@@ -123,6 +140,7 @@
         $('#row_unlock').show()
         dialog.showMessageBox({type:'info', title:'温馨提示', message: '聊天窗口已锁定！', buttons:['Ok']})
     })
+
     $('#unlock').on('click', function(){
         var val = $('#unpassword').val()
         if (passwd === val) {

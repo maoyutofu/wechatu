@@ -3,16 +3,20 @@ const path = require('path')
 const url = require('url')
 
 let win
+let choice = -1
 
 function createWindow() {
   win = new BrowserWindow({width:1000, height: 800})
 
   win.on('close', (e) => {
-    let choice = dialog.showMessageBox({type:'question', title:'温馨提示', message: '确定要关闭窗口吗？', buttons:['Yes', 'No']})
+    if (choice === -1) {
+      choice = dialog.showMessageBox({type:'question', title:'温馨提示', message: '确定要退出应用吗？', buttons:['退出', '最小化到系统托盘']})
+    }
     if (choice === 0) {
       win = null
     } else {
       e.preventDefault()
+      win.hide()
     }
   })
 
