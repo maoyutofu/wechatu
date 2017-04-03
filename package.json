@@ -1,13 +1,13 @@
 {
   "name": "wechatu",
   "version": "0.1.1",
-  "main": "main.js",
+  "main": "./src/main.js",
   "devDependencies": {
     "electron": "^1.6.2",
     "electron-packager": "^8.6.0"
   },
   "scripts": {
-    "start": "./node_modules/.bin/electron .",
-    "packager": "./node_modules/.bin/electron-packager ./ wechatu --Linux --out ./build/Release"
+    "start": "./node_modules/.bin/electron ./src",
+    "packager": "./node_modules/.bin/electron-packager ./ wechatu --Linux --out ./build/Release --overwrite --icon=./icons/48x48/wechat.ico"
   }
 }
