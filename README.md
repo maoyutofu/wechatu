@@ -1,7 +1,6 @@
-# wechatu
-WeChat for Linux
+# wechatu WeChat for Linux  
 
-![wechatu](http://ww4.sinaimg.cn/mw690/c5e04220gw1f961gwyrwfj211y0lc7as.jpg)
+![wechatu](http://ww4.sinaimg.cn/mw690/c5e04220gw1f961gwyrwfj211y0lc7as.jpg)  
 ##wechatu是什么?
 一个运行在Ubuntu系统下的微信<注意：wechatu非微信官方产品>
 
@@ -12,13 +11,15 @@ WeChat for Linux
     *  好友、群组等
 * 扩展功能
     * 支持锁屏（Shift+Ctrl+L）
+    * 误触关闭按钮确认提示
 
 ##安装wechatu
 
 ```shell
-wget https://github.com/tjz101/wechatu/releases/download/v0.1.0/wechatu-v0.1.0-linux-x64.tar.gz
-tar -xvf wechatu-v0.1.0-linux-x64.tar.gz
-cd wechatu  
+wget https://github.com/tjz101/wechatu/releases/download/v0.1.1/wechatu-v0.1.1-linux-x64.tar.gz  
+tar -xvf wechatu-v0.1.1-linux-x64.tar.gz  
+cd wechatu-linux-x64  
+chmod a+x setup.py  
 sudo ./setup.py  
 ```
 

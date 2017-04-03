@@ -2,7 +2,7 @@
 Version=0.1.0
 Type=Application
 Name=WeChat for Linux
-Icon={0}icons/wechat.png
+Icon={0}resources/app/icons/48x48/wechat.ico
 Exec={1}wechatu
 Terminal=false
 Categories=Network;InstantMessaging
