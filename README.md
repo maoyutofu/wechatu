@@ -1,6 +1,6 @@
-# wechatu WeChat for Linux  
+# wechatu（WeChat for Linux）  
 
-![NewFeatures](http://wx2.sinaimg.cn/large/c5e04220ly1fe9k1dz5bhj208w08wmxf.jpg)  
+![NewFeatures](http://wx1.sinaimg.cn/large/c5e04220ly1fe9k88na82j20fj08c74k.jpg)  
 ## wechatu是什么?
 一个运行在Ubuntu系统下的微信<注意：wechatu非微信官方产品>
 ![wechatu](http://ww4.sinaimg.cn/mw690/c5e04220gw1f961gwyrwfj211y0lc7as.jpg) 
@@ -15,7 +15,7 @@
     * 误触关闭按钮确认提示
     * 系统托盘
 * 其他功能说明
-    * 聊天窗口的复制/粘贴需要使用快捷键来实现(Ctrl+c/Ctrl+v)
+    * 聊天窗口的复制/粘贴需要使用快捷键来实现（Ctrl+c/Ctrl+v）
 
 ## 安装wechatu
 
