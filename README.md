@@ -1,6 +1,6 @@
 # wechatu WeChat for Linux  
 
-![NewFeatures](http://wx4.sinaimg.cn/large/c5e04220gy1fe9jptlpjtj20fp04bglv.jpg)  
+![NewFeatures](http://wx2.sinaimg.cn/large/c5e04220ly1fe9k1dz5bhj208w08wmxf.jpg)  
 ## wechatu是什么?
 一个运行在Ubuntu系统下的微信<注意：wechatu非微信官方产品>
 ![wechatu](http://ww4.sinaimg.cn/mw690/c5e04220gw1f961gwyrwfj211y0lc7as.jpg) 
