@@ -21,6 +21,7 @@ if not os.path.exists(desktop):
     d = open(desktop, 'w+') 
     d.write(conf_str)
     d.close()
-
-time.sleep(3)
-print '安装完成，请使用WeChat for Linux'
+    time.sleep(3)
+    print '安装完成，请使用WeChat for Linux'
+else:
+    print '检测到你已安装过WeChatU，请手动删除' + desktop
