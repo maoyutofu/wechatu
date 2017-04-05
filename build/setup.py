@@ -4,7 +4,7 @@
 import os
 import time
 
-print '安装WeChat到你的Linux系统'
+print '安装WeChatU到你的Linux系统'
 print '正在初始化安装'
 cwd = os.getcwd() + '/'
 
@@ -22,6 +22,6 @@ if not os.path.exists(desktop):
     d.write(conf_str)
     d.close()
     time.sleep(3)
-    print '安装完成，请使用WeChat for Linux'
+    print '安装完成，欢迎使用WeChatU（WeChat for Linux）'
 else:
-    print '检测到你已安装过WeChatU，请手动删除' + desktop
+    print '检测到你已安装过WeChatU，升级请手动删除' + desktop
