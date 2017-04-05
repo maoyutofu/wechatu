@@ -18,7 +18,7 @@
     * 聊天窗口的复制/粘贴需要使用快捷键来实现（Ctrl+c/Ctrl+v）
 
 ## 安装wechatu
-** 百度云盘链接: https://pan.baidu.com/s/1slBAk37 密码: 6pav  
+* 百度云盘链接: https://pan.baidu.com/s/1slBAk37 密码: 6pav  
 ```shell
 wget https://github.com/tjz101/wechatu/releases/download/v0.1.2/wechatu-v0.1.2-linux-x64.tar.gz  
 tar -zxvf wechatu-v0.1.2-linux-x64.tar.gz  
