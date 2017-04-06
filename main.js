@@ -28,13 +28,13 @@ function createWindow() {
 
   win.setMenuBarVisibility(false)
 
-  const ret = globalShortcut.register('F12', () => {
-      console.log('F12 is pressed')
+  const ret = globalShortcut.register('CommandOrControl+F12', () => {
+      console.log('CommandOrControl+F12 is pressed')
       win.webContents.openDevTools()
   })
 
   if (!ret) {
-      console.log('F12 registration failed')
+      console.log('CommandOrControl+F12 registration failed')
   }
 }
 
